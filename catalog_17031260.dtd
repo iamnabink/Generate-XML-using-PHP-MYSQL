@@ -1,0 +1,28 @@
+<!ELEMENT it_company (company_info+,management_team,dep_management+,product,services+)>
+<!ELEMENT management_team (#PCDATA)>
+<!ELEMENT product (#PCDATA)>
+<!ELEMENT company_info (company_logo, company_name,company_address,company_contact,website_url,company_desc)>
+<!ELEMENT dep_management (employee+)>
+<!ELEMENT company_name (#PCDATA)>
+<!ELEMENT company_address (#PCDATA)>
+<!ELEMENT company_contact (#PCDATA)>
+<!ELEMENT company_logo (#PCDATA)>
+<!ELEMENT company_desc (#PCDATA)>
+<!ELEMENT website_url (#PCDATA)>
+<!ATTLIST department dep_id ID #REQUIRED>
+<!ELEMENT employee (job_title,emp_name,emp_contact?,emp_email,department+)>
+<!ELEMENT department (dep_name, dep_location)>
+<!ELEMENT dep_name (#PCDATA)>
+<!ELEMENT dep_location (#PCDATA)>
+<!ATTLIST employee emp_id ID #REQUIRED>
+<!ATTLIST emp_name title (Mr. | Mrs.) #IMPLIED>
+<!ELEMENT emp_name (#PCDATA)>
+<!ELEMENT job_title (#PCDATA)>
+<!ELEMENT emp_contact (#PCDATA)>
+<!ELEMENT emp_email (#PCDATA)>
+<!ELEMENT services (products+)>
+<!ELEMENT products (p_name,p_description)>
+<!ELEMENT p_name (#PCDATA)>
+<!ELEMENT p_description (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ATTLIST products p_category NMTOKEN #REQUIRED>

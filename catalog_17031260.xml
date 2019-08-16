@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="catalog_17031260.css" ?>
+<!DOCTYPE it_company SYSTEM "catalog_17031260.dtd">
+<it_company>
+  <company_info>
+    <company_logo/>
+    <company_name>NabiNStack Infotech</company_name>
+    <company_address>New Baneshwor, Kathmandu Nepal</company_address>
+    <company_contact>+01 43122344</company_contact>
+    <website_url>www.anonstackedu.com</website_url>
+    <company_desc>AnonStack Infotech is the biggest IT Company in Nepal, established in 1990 it is working for the development of IT industry in Nepal</company_desc>
+  </company_info>
+  <management_team>Management Team</management_team>
+  <dep_management>
+    <employee emp_id="SK021">
+      <job_title>HR Manager</job_title>
+      <emp_name title="Mr.">Sujit Khadka</emp_name>
+      <emp_contact>+977 987656789</emp_contact>
+      <emp_email>sujitk@gmail.com.np</emp_email>
+      <department dep_id="HR06">
+        <dep_name>Human Resource Department,</dep_name>
+        <dep_location>Kathmandu</dep_location>
+      </department>
+    </employee>
+    <employee emp_id="AK022">
+      <job_title>Supervisor</job_title>
+      <emp_name title="Mr.">Nabin Khadka</emp_name>
+      <emp_contact>+977 9865098777</emp_contact>
+      <emp_email>nabin4345@gmail.com</emp_email>
+      <department dep_id="MBL03">
+        <dep_name>Web Development,</dep_name>
+        <dep_location>Kathmandu</dep_location>
+      </department>
+    </employee>
+    <employee emp_id="AS015">
+      <job_title>Marketing Manager</job_title>
+      <emp_name title="Mrs.">Anita Shrestha</emp_name>
+      <emp_contact>+977 9867564323</emp_contact>
+      <emp_email>anit@yahoo.com.uk</emp_email>
+      <department dep_id="MR02">
+        <dep_name>Marketing Department,</dep_name>
+        <dep_location>Bhaktapur</dep_location>
+      </department>
+    </employee>
+    <employee emp_id="BP091">
+      <job_title>Branch Manager</job_title>
+      <emp_name title="Mr.">Bilab Dhungana</emp_name>
+      <emp_contact>+977 987666709</emp_contact>
+      <emp_email>bips@gmail.com</emp_email>
+      <department dep_id="RD05">
+        <dep_name>Research and Development,</dep_name>
+        <dep_location>Lalitpur</dep_location>
+      </department>
+    </employee>
+    <employee emp_id="M4012">
+      <job_title>Project Manager</job_title>
+      <emp_name title="Mrs.">Sona Khadka</emp_name>
+      <emp_contact>+977 9871367781</emp_contact>
+      <emp_email>sonakha234345@gmail.com</emp_email>
+      <department dep_id="WEB01">
+        <dep_name>Mobile Development,</dep_name>
+        <dep_location>Lalitpur</dep_location>
+      </department>
+    </employee>
+  </dep_management>
+  <product>Products</product>
+  <services>
+    <products p_category="web">
+      <p_name>www.ECashhelp.com</p_name>
+      <p_description>www.ECashhelp.com", is an Online payment getway in Nepal.</p_description>
+    </products>
+    <products p_category="mob">
+      <p_name>Nabin gym fitness center app</p_name>
+      <p_description>Nabin gym fitness center app is an system management app, that maintains the customer records.</p_description>
+    </products>
+  </services>
+</it_company>
